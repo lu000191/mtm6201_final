@@ -51,7 +51,7 @@ img {
 .image-overlay-container {
     position: relative;
     width: 100%;
-    max-width: 100%; /* Ensures responsiveness */
+    max-width: 100%;
 }
 
 .image-overlay-container img {
