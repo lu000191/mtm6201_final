@@ -51,12 +51,24 @@ img {
 .image-overlay-container {
     position: relative;
     width: 100%;
-    max-width: 100%;
+    max-width: 100%; /* Ensures responsiveness */
 }
 
 .image-overlay-container img {
     width: 100%;
     height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%; /* Centers the text vertically */
+    left: 50%; /* Centers the text horizontally */
+    transform: translate(-50%, -50%); /* Adjusts the position by 50% */
+    color: white; /* Text color */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background to the text */
+    padding: 100px;
+    border-radius: 5px; 
 }
 
 .logoarea {
